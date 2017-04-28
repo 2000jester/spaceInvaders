@@ -119,7 +119,9 @@ var pState = STATE_MENU
 
 //CONSTRUCTORS
 var player = new Player()
-var map = new Map(canvas.width, canvas.height, canvas.width / 14, canvas.height / 10)
+var nodeW = 14
+var nodeH = 10
+var map = new Map(nodeW, nodeH, canvas.width / nodeW, canvas.height / nodeH)
 console.log(map)
 
 //run menu function
