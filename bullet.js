@@ -4,7 +4,11 @@ var Bullet = function(tag){
   this.radius = player.radius / 20
   this.speed = 6;
   this.alive = true;
-  this.color = "limegreen"
+  if(tag == "player"){
+    this.color = "limegreen"
+  } else if (tag == "enemy"){
+    this.color = "red"
+  }
   this.tag = tag
 }
 
