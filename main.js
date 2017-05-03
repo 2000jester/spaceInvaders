@@ -125,6 +125,11 @@ var nodeH = Math.floor(window.innerHeight / node)
 var map = new Map(nodeW, nodeH, node, node)
 //console.log(map)
 
+//enemy setup
+var enemyRadius = 30
+var enemyAmount = ((CW/(enemyRadius*2))*(CH/(enemyRadius*2)))
+console.log(enemyAmount)
+
 //run menu function
 //
 //
